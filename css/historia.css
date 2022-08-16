@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d4ccca ;
+}
+
+#principal{
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 95%;
+    margin: 0 auto;
+   font-size: 16px;
+}
+
+#contacto{
+    color: #851E18;
+}
+
+#logo1{
+    height: 100px;
+    width:  300px;
+    float: center;
+    border-radius: 20px;
+    
+}
+#logo{
+    height: 120px;
+     width: 100px;
+    float: left;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+#logo4{
+    height: 120px;
+    width: 100px;
+    float: right;
+    padding-left:10px ;
+    border-radius: 20px;
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+
+nav {
+    background-color: #c2c2c2;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav > ul{
+    list-style: none;
+    
+}
+
+
+nav >ul>li{
+    display: inline;
+    padding: 25px;
+    position: relative;
+
+}
+nav >ul>li::before{
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #a59988;
+  position: absolute;
+  left: 0;
+  top: 65px;
+  transition: 0.4s ease-out;    
+}
+nav >ul>li:hover:before{
+width: 100%;
+}
+
+nav >ul>li>a{
+    display: inline;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    width: 60%;
+    height: 400px;
+    float:right;
+}
+#imagen1{
+    height: 120px;
+    width: 120px;
+    float: right;
+    }  
+#imagen2{
+    height: 120px;
+    width: 120px;
+    float: right;
+ }  
+ #tefi{
+    height: 300px;
+    width:  300px;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+ }
+aside{
+    width: 40%;
+    height: 400px;
+    text-align: center;
+    float: left;
+}
+aside> ul{
+    list-style: none;
+}
+
+
+#noticia1{
+    height: 90px;
+    width: 90px;
+    float: left;
+    border-radius: 20px;
+ }  
+#noticia2{
+    height: 90px;
+    width: 90px;
+    float: left;
+    border-radius: 20px;
+ }
+#noticia3{
+    height: 90px;
+    width: 90px;
+    float: left;
+    border-radius: 20px;
+}
+ 
+#vi,#mi{
+    color: #031944;
+    font-weight: bold;
+    font-size:30px;
+}
+ 
+
+footer{
+    width: 100%;
+    height: 150px;  
+    text-align: center;
+    padding-left: 20px;
+
+}
+#logo2{
+    height: 90px;
+    width: 100px;
+    float: right;
+    padding-right: 38px;
+    }  
+#logo3{
+     height: 90px;
+     width: 100px;
+     float: left;
+}     
+article{
+    padding-left: 20px;
+    height: 200px;
+}
+#con >a {
+    text-decoration: none;
+    color: black;
+}
+#tefa{
+    height: 100px;
+    width: 100px;
+    float: center;
+    border-radius: 50px;
+}
+#ub{
+    height: 40px;
+    width:  40px;
+    float: left;
+    
+}
